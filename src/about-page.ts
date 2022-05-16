@@ -9,6 +9,7 @@ export class AboutPage extends LitElement {
         <div class="">
             <h1 class="text-9xl text-center">About us</h1>
         </div>
+        <a class="text-xl py-2 px-6 bg-blue-700 text-white text-center rounded" href="/index.html">Home</a>
     </section>
 
     `;

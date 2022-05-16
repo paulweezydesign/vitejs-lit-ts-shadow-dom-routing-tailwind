@@ -10,7 +10,22 @@ export class ContactPage extends LitElement {
             <h1 class="text-9xl text-center">Contact us</h1>
         </div>
     </section>
+        <!--menu overlay-->
+    <!-- The overlay -->
+    <div id="myNav" class="overlay">
 
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <!-- Overlay content -->
+        <div class="overlay-content">
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+
+    </div>
     `;
     }
     protected createRenderRoot() {
